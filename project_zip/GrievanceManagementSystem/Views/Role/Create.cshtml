@@ -1,0 +1,45 @@
+﻿@model GMSRole
+
+<h2>Add Role</h2>
+
+<form method="post">
+
+    <div class="mb-3">
+
+        <label>Role Name</label>
+
+        <input asp-for="RoleName"
+               class="form-control" />
+
+        <span asp-validation-for="RoleName"
+              class="text-danger">
+        </span>
+
+    </div>
+
+    <div class="mb-3">
+
+        <label>Description</label>
+
+        <textarea asp-for="Description"
+                  class="form-control">
+        </textarea>
+
+    </div>
+
+    <div class="form-check mb-3">
+
+        <input asp-for="IsActive"
+               class="form-check-input" />
+
+        <label class="form-check-label">
+            Active
+        </label>
+
+    </div>
+
+    <button class="btn btn-success">
+        Save
+    </button>
+
+</form>

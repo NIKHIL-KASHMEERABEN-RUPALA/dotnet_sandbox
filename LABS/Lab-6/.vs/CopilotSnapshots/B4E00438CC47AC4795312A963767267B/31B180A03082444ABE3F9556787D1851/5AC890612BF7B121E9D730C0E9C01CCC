@@ -1,0 +1,306 @@
+﻿using System;
+using System.Collections;
+
+class Program
+{
+    static void Main()
+    {
+
+        program1();
+        program2();
+        program3();
+        program4();
+    
+    }
+
+    public static void program1()
+    {
+
+        ArrayList student = new ArrayList();
+
+        while (true)
+        {
+            Console.WriteLine("Enter the choice from the following :");
+            Console.WriteLine(" 1. Add");
+            Console.WriteLine(" 2. Display");
+            Console.WriteLine(" 3. Search");
+            Console.WriteLine(" 4. Update");
+            Console.WriteLine(" 5. Delete");
+            Console.WriteLine(" 6. Exit");
+
+            string? input = Console.ReadLine();
+            if (!int.TryParse(input, out int choice))
+            {
+                Console.WriteLine("Invalid input. Please enter a number.");
+                continue;
+            }
+
+            switch (choice)
+            {
+                case 1:
+                    Console.WriteLine("Enter the student name : ");
+                    string? student_name = Console.ReadLine();
+                    if (!string.IsNullOrEmpty(student_name))
+                        student.Add(student_name);
+                    break;
+
+                case 2:
+                    foreach (var items in student)
+                    {
+                        Console.WriteLine(items);
+                    }
+                    break;
+
+                case 3:
+                    Console.WriteLine("Enter the student name to search : ");
+                    string? to_search = Console.ReadLine();
+                    Console.WriteLine("List student contains : " + (to_search != null && student.Contains(to_search)));
+                    break;
+
+                case 4:
+                    Console.WriteLine("Enter the student name to update : ");
+                    string? to_update = Console.ReadLine();
+                    if (to_update != null && student.Contains(to_update))
+                    {
+                        Console.WriteLine("Enter the new name : ");
+                        string? new_name = Console.ReadLine();
+                        int index = student.IndexOf(to_update);
+                        if (index >= 0 && new_name != null)
+                            student[index] = new_name;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Student not found");
+                    }
+                    break;
+
+                case 5:
+                    Console.WriteLine("Enter the student name to delete : ");
+                    string? to_delete = Console.ReadLine();
+                    if (to_delete != null && student.Contains(to_delete))
+                    {
+                        student.Remove(to_delete);
+                        Console.WriteLine("Student removed.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Student not found");
+                    }
+                    break;
+
+                case 6:
+                    return;
+
+                default:
+                    Console.WriteLine("Invalid choice");
+                    break;
+            }
+        }
+
+    }
+
+    public static void program2()
+    {
+        ArrayList Cart = new ArrayList();
+
+
+        while (true)
+        {
+            Console.WriteLine("Enter the choice from the following :");
+            Console.WriteLine(" 1. Add");
+            Console.WriteLine(" 2. Display");
+            Console.WriteLine(" 3. Search");
+            Console.WriteLine(" 4. Update");
+            Console.WriteLine(" 5. Delete");
+            Console.WriteLine(" 6. Exit");
+
+            string? input = Console.ReadLine();
+            if (!int.TryParse(input, out int choice))
+            {
+                Console.WriteLine("Invalid input. Please enter a number.");
+                continue;
+            }
+
+            switch (choice)
+            {
+                case 1:
+                    Console.WriteLine("Enter the Cart item name : ");
+                    string? student_name = Console.ReadLine();
+                    if (!string.IsNullOrEmpty(student_name))
+                        Cart.Add(student_name);
+                    break;
+
+                case 2:
+                    foreach (var items in Cart)
+                    {
+                        Console.WriteLine(items);
+                    }
+                    break;
+
+                case 3:
+                    Console.WriteLine("Enter the Cart item name to search : ");
+                    string? to_search = Console.ReadLine();
+                    Console.WriteLine("List Cart contains : " + (to_search != null && Cart.Contains(to_search)));
+                    break;
+
+                case 4:
+                    Console.WriteLine("Enter the Cart item name to update : ");
+                    string? to_update = Console.ReadLine();
+                    if (to_update != null && Cart.Contains(to_update))
+                    {
+                        Console.WriteLine("Enter the new name : ");
+                        string? new_name = Console.ReadLine();
+                        int index = Cart.IndexOf(to_update);
+                        if (index >= 0 && new_name != null)
+                            Cart[index] = new_name;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Student not found");
+                    }
+                    break;
+
+                case 5:
+                    Console.WriteLine("Enter the student name to delete : ");
+                    string? to_delete = Console.ReadLine();
+                    if (to_delete != null && Cart.Contains(to_delete))
+                    {
+                        Cart.Remove(to_delete);
+                        Console.WriteLine("Student removed.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Student not found");
+                    }
+                    break;
+
+                case 6:
+                    return;
+
+                default:
+                    Console.WriteLine("Invalid choice");
+                    break;
+            }
+        }
+    }
+
+    public static void program3()
+    {
+        Dictionary<int, String> Student = new Dictionary<int, String>();
+        int choice;
+        
+        do
+        {
+            Console.WriteLine("Enter the choice from the following ----- ");
+            Console.WriteLine(" 1. Add ");
+            Console.WriteLine(" 2. Update ");
+            Console.WriteLine(" 3. Delete ");
+            Console.WriteLine(" 4. Display ");
+            Console.WriteLine(" 5. Exit the program ! ");
+            choice  = Convert.ToInt32(Console.ReadLine());
+
+
+            switch (choice)
+            {
+                case 1:
+                    Console.WriteLine("Enter the student id : ");
+                    int id = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter the student name :   ");
+                    string name = Console.ReadLine();
+                    Student.Add(id, name);
+                    break;
+
+                case 2:
+                    Console.WriteLine("Enter the student id to update : ");
+                    int update_id = Convert.ToInt32(Console.ReadLine());
+                    if (Student.ContainsKey(update_id))
+                    {
+                        Console.WriteLine("Enter the new name : ");
+                        string new_name = Console.ReadLine();
+                        Student[update_id] = new_name;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Student not found");
+                    }
+                    break;
+
+
+                case 3:
+                    Console.WriteLine("Enter the student id to delete : ");
+                    int delete_id = Convert.ToInt32(Console.ReadLine());
+                    if (Student.ContainsKey(delete_id))
+                    {
+                        Student.Remove(delete_id);
+                        Console.WriteLine("Student removed.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Student not found");
+                    }
+                    break;
+
+                case 4:
+                    Console.WriteLine("The display of dictionary is --- ");
+                    foreach(var item in Student)
+                    {
+                        Console.WriteLine("Student id : " + item.Key + " Student name : " + item.Value);
+                    }
+                    break;
+
+                case 5:
+                    Console.WriteLine("Exiting the program...");
+                    break;
+            }
+
+
+        } while (choice != 5);
+        
+    }
+
+    public static void program4()
+    {
+        Dictionary<string , string> product_Catalog = new Dictionary<string , string>();
+
+        int choice;
+        do
+        {
+            Console.WriteLine("Enter the choice from the following ----- ");
+            Console.WriteLine(" 1. Add ");
+            Console.WriteLine(" 2. Update ");
+            Console.WriteLine(" 3. Delete ");
+            Console.WriteLine(" 4. Display ");
+            Console.WriteLine(" 5. Exit the program ! ");
+            choice = Convert.ToInt32(Console.ReadLine());
+
+
+            switch (choice)
+            {
+                case 1:
+                    
+                    break;
+
+                case 2:
+                    
+                    break;
+
+
+                case 3:
+                   
+                    break;
+
+                case 4:
+                    
+                    break;
+
+                case 5:
+                    Console.WriteLine("Exiting the program...");
+                    break;
+            }
+
+
+        } while (choice != 5);
+
+    }
+
+}

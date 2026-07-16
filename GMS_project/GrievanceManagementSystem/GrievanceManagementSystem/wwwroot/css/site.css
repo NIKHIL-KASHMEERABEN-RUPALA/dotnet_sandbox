@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background: #f5f7fb;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background: #0f172a;
+    color: white;
+    padding: 20px;
+}
+
+    .sidebar ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .sidebar li {
+        margin: 20px 0;
+    }
+
+    .sidebar a {
+        color: white;
+        text-decoration: none;
+    }
+
+main {
+    flex: 1;
+    padding: 30px;
+}

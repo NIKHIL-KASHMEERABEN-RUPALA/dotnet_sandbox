@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+
+    <title>@ViewData["Title"]</title>
+
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          rel="stylesheet" />
+
+    <link href="~/css/site.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <nav class="sidebar">
+
+            <h4>GMS</h4>
+
+            <ul>
+
+                <li>
+                    <a asp-controller="Dashboard"
+                       asp-action="Index">
+                        Dashboard
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Role"
+                       asp-action="Index">
+                        Roles
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="User"
+                       asp-action="Index">
+                        Users
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Department"
+                       asp-action="Index">
+                        Departments
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Category"
+                       asp-action="Index">
+                        Categories
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Grievance"
+                       asp-action="Index">
+                        Grievances
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Role"
+                       asp-action="Index">
+
+                        Roles
+
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <main>
+
+            @RenderBody()
+
+        </main>
+
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

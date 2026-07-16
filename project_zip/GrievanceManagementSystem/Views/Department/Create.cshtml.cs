@@ -1,0 +1,12 @@
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+
+namespace GrievanceManagementSystem.Views.Department
+{
+    public class CreateModel : PageModel
+    {
+        public void OnGet()
+        {
+        }
+    }
+}

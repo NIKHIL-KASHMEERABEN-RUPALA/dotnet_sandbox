@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+2FzWzRKlHs=",
+  "success": true,
+  "projectFilePath": "D:\\Btech_CSE\\Semester-5\\ASP.NET\\GMS_project\\GrievanceManagementSystem\\GrievanceManagementSystem\\GrievanceManagementSystem.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Lenovo\\.nuget\\packages\\bootstrap\\5.3.8\\bootstrap.5.3.8.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\fontawesome\\4.7.0\\fontawesome.4.7.0.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\jquery\\3.7.1\\jquery.3.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

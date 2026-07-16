@@ -1,0 +1,14 @@
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\bin\Debug\net10.0\LAB-3.exe
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\bin\Debug\net10.0\LAB-3.deps.json
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\bin\Debug\net10.0\LAB-3.runtimeconfig.json
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\bin\Debug\net10.0\LAB-3.dll
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\bin\Debug\net10.0\LAB-3.pdb
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\obj\Debug\net10.0\LAB-3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\obj\Debug\net10.0\LAB-3.AssemblyInfoInputs.cache
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\obj\Debug\net10.0\LAB-3.AssemblyInfo.cs
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\obj\Debug\net10.0\LAB-3.csproj.CoreCompileInputs.cache
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\obj\Debug\net10.0\LAB-3.dll
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\obj\Debug\net10.0\refint\LAB-3.dll
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\obj\Debug\net10.0\LAB-3.pdb
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\obj\Debug\net10.0\LAB-3.genruntimeconfig.cache
+D:\Semester-5\ASP.NET\LABS\LAB-3\LAB-3\obj\Debug\net10.0\ref\LAB-3.dll

@@ -1,0 +1,62 @@
+﻿using System;
+using System.Collections;
+
+class Program
+{
+    static void main()
+    {
+
+        ArrayList student = new ArrayList();
+
+        do
+        {
+            Console.WriteLine("Enter the choice from the following :      ");
+            Console.WriteLine(" 1.Add ");
+            Console.WriteLine(" 2.Display ");
+            Console.WriteLine(" 3.Search ");
+            Console.WriteLine(" 4.Update ");
+            Console.WriteLine(" 5.Delete ");
+            int choice = Convert.ToInt32(Console.ReadLine());
+
+            switch (choice)
+            {
+                case 1:
+                    Console.WriteLine("Enter the student name : ");
+                    string student_name = Console.ReadLine();
+                    student.Add(student_name);
+                    break;
+
+                case 2:
+                    foreach(var items in student)
+                    {
+                        Console.WriteLine(items);
+                    }
+                    break;
+
+                case 3:
+                    Console.WriteLine("Enter the student name to search : "); 
+                    string to_search = Console.ReadLine();
+                    Console.WriteLine("List student contains : "+student.Contains(to_search));
+                    break;
+
+                case 4:
+                    Console.WriteLine("Enter the student name to update : ");
+                    string to_update = Console.ReadLine();
+                    if (student.Contains(to_update))
+                    {
+                        Console.WriteLine("Enter the new name : ");
+                        string new_name = Console.ReadLine();
+                        int index = student.IndexOf(to_update);
+                        student[index] = new_name;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Student not found");
+                    }
+                    break;
+
+            }
+          
+        }
+    }
+}
