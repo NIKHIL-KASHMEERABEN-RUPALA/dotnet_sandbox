@@ -5,8 +5,10 @@ BASIC INTRODUCTION ----
     a web API is a messenger between client and server
 
     example --
+
+        here asp .net core API is used
         customer orders a pizza , thats some sort of action
         the order is a post request , hence web API processes this post request according to business logic 
         the data gets fetched from database and gets processed inside the web-API 
         the web API sends response to the client (the app or software interface)
-        
+        http response in form of json is the output 
