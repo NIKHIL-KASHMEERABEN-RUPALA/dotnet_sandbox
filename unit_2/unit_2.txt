@@ -7,4 +7,5 @@ BASIC INTRODUCTION ----
     example --
         customer orders a pizza , thats some sort of action
         the order is a post request , hence web API processes this post request according to business logic 
+        the data gets fetched from database and gets processed inside the web-API 
         
