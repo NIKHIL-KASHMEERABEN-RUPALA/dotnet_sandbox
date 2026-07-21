@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Btech_CSE\\Semester-5\\ASP.NET\\GMS_project\\GrievanceManagementSystem\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A688C9B8-542D-CB76-2DCF-22B7298507CC}|GrievanceManagementSystem\\GrievanceManagementSystem.csproj|d:\\btech_cse\\semester-5\\asp.net\\gms_project\\grievancemanagementsystem\\grievancemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A688C9B8-542D-CB76-2DCF-22B7298507CC}|GrievanceManagementSystem\\GrievanceManagementSystem.csproj|solutionrelative:grievancemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A688C9B8-542D-CB76-2DCF-22B7298507CC}|GrievanceManagementSystem\\GrievanceManagementSystem.csproj|d:\\btech_cse\\semester-5\\asp.net\\gms_project\\grievancemanagementsystem\\grievancemanagementsystem\\models\\gmsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A688C9B8-542D-CB76-2DCF-22B7298507CC}|GrievanceManagementSystem\\GrievanceManagementSystem.csproj|solutionrelative:grievancemanagementsystem\\models\\gmsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,37 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Btech_CSE\\Semester-5\\ASP.NET\\GMS_project\\GrievanceManagementSystem\\GrievanceManagementSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "GrievanceManagementSystem\\appsettings.json",
-              "ToolTip": "D:\\Btech_CSE\\Semester-5\\ASP.NET\\GMS_project\\GrievanceManagementSystem\\GrievanceManagementSystem\\appsettings.json*",
-              "RelativeToolTip": "GrievanceManagementSystem\\appsettings.json*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-07-15T07:48:12.325Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GMSUser.cs",
-              "DocumentMoniker": "D:\\Btech_CSE\\Semester-5\\ASP.NET\\GMS_project\\GrievanceManagementSystem\\GrievanceManagementSystem\\Models\\GMSUser.cs",
-              "RelativeDocumentMoniker": "GrievanceManagementSystem\\Models\\GMSUser.cs",
-              "ToolTip": "D:\\Btech_CSE\\Semester-5\\ASP.NET\\GMS_project\\GrievanceManagementSystem\\GrievanceManagementSystem\\Models\\GMSUser.cs",
-              "RelativeToolTip": "GrievanceManagementSystem\\Models\\GMSUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-15T07:31:53.391Z",
-              "EditorCaption": ""
             }
           ]
         }
