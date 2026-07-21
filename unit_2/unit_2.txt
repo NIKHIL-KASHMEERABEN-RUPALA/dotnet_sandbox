@@ -13,4 +13,6 @@ BASIC INTRODUCTION ----
         the web API sends response to the client (the app or software interface)
         http response in form of json is the output 
 
-        
+
+    the entire business logic is written inside web API project 
+    web APi act
