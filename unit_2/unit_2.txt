@@ -4,4 +4,5 @@ BASIC INTRODUCTION ----
 
     a web API is a messenger between client and server
 
-    
+    example --
+        customer orders a pizza , thats some sort of action
