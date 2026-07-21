@@ -1,3 +1,5 @@
 BASIC INTRODUCTION ----
     a web API (web application programming inteface) is a software interface which helps 
     one application to communicate with other application interface over internet using http 
+
+    a web API is a messenger between client and server
