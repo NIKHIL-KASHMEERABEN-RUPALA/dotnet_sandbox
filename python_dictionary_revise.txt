@@ -39,3 +39,8 @@ IMP METHODS -----
         dict.items()
             returns a view object of tuple containing key value pairs 
             dict_items([('key' ,'value' , 'key' , 'value')])
+
+    (5) remove item
+        dict.pop('key')
+            removes specified key from dictionary and returns its vvalue
+            
