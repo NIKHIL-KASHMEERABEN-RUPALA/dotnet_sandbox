@@ -18,3 +18,10 @@ ACCESSING DICTIONARY MEMBERS ---
             this is safer
             returns 'None' if not found
             returns defualt_value if specified
+
+        
+IMP METHODS -----
+    (1) add/update operation
+        dict['key'] = value
+            this will add new key-value pair if not there in dictionary
+            but will update value , if key is existing
