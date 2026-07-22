@@ -28,7 +28,7 @@ IMP METHODS -----
 
     (2) get keys 
         dict.key()
-            returns a view object ---   dict_keys(['key1' , 'key2' , etc])
+            returns a list or view object ---   dict_keys(['key1' , 'key2' , etc])
 
     (3) get values 
         dict.values()
@@ -37,10 +37,11 @@ IMP METHODS -----
 
     (4) get items 
         dict.items()
-            returns a list or view object of tuple containing key value pairs 
+            returns a list of tuples or view object of tuple containing key value pairs 
             dict_items([('key' ,'value' , 'key' , 'value')])
 
     (5) remove item
         dict.pop('key',defualt_value)
             removes specified key from dictionary and returns its vvalue
+
 
