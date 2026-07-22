@@ -8,3 +8,12 @@ old values will be overwritten
 
 dictionary key must be of unmutable type like string , tuple or numbers
 
+
+ACCESSING DICTIONARY MEMBERS ---
+    using [] bracket notation :
+        (1) dict['key']
+            this would raise an error if key is not existing -- KeyError 
+
+        (2)  .get('key',defualt_value)
+            this is safer
+            return 'None ' if not found
