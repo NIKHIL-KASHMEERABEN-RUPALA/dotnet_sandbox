@@ -33,4 +33,9 @@ IMP METHODS -----
     (3) get values 
         dict.values()
             returns a view object -- dict_vakues (['value1' , 'value2', etc])
-            
+
+
+    (4) get items 
+        dict.items()
+            returns a view object of tuple containing key value pairs 
+            dict_items([('key' ,'value' , 'key' , 'value')])
