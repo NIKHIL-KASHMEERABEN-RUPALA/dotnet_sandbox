@@ -4,4 +4,4 @@ but now , dictionary is sequential and maintains its order of items in which it 
 dictionary is mutable , we can add , delete or modify the items 
 
 dictionary key is unique , if assigned a new value then 
-old 
+old values will be overwritten
