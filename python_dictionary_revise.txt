@@ -41,6 +41,5 @@ IMP METHODS -----
             dict_items([('key' ,'value' , 'key' , 'value')])
 
     (5) remove item
-        dict.pop('key')
+        dict.pop('key',defualt_value)
             removes specified key from dictionary and returns its vvalue
-            
