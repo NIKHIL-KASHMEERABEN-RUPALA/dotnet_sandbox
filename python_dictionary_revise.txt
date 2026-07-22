@@ -25,3 +25,7 @@ IMP METHODS -----
         dict['key'] = value
             this will add new key-value pair if not there in dictionary
             but will update value , if key is existing
+
+    (2) get keys 
+        dict.key()
+            returns a view object ---   dict_keys('key1' , 'key2' , etc)
