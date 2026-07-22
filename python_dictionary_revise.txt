@@ -1,3 +1,7 @@
 before python 3.7 , dictionary was unorganized and non-sequential
 
 but now , dictionary is sequential and maintains its order of items in which it was inserted
+dictionary is mutable , we can add , delete or modify the items 
+
+dictionary key is unique , if assigned a new value then 
+old 
