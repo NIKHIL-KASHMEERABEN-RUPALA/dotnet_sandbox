@@ -10,7 +10,7 @@ public class Solution{
             return 0;
         }
 
-        
+        visited[i][j] = true;
 
     }
 
