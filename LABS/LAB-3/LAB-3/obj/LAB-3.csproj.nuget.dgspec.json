@@ -1,36 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Semester-5\\ASP.NET\\LABS\\LAB-3\\LAB-3\\LAB-3.csproj": {}
+    "/workspaces/dotnet_sandbox/LABS/LAB-3/LAB-3/LAB-3.csproj": {}
   },
   "projects": {
-    "D:\\Semester-5\\ASP.NET\\LABS\\LAB-3\\LAB-3\\LAB-3.csproj": {
+    "/workspaces/dotnet_sandbox/LABS/LAB-3/LAB-3/LAB-3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Semester-5\\ASP.NET\\LABS\\LAB-3\\LAB-3\\LAB-3.csproj",
+        "projectUniqueName": "/workspaces/dotnet_sandbox/LABS/LAB-3/LAB-3/LAB-3.csproj",
         "projectName": "LAB-3",
-        "projectPath": "D:\\Semester-5\\ASP.NET\\LABS\\LAB-3\\LAB-3\\LAB-3.csproj",
-        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Semester-5\\ASP.NET\\LABS\\LAB-3\\LAB-3\\obj\\",
+        "projectPath": "/workspaces/dotnet_sandbox/LABS/LAB-3/LAB-3/LAB-3.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/dotnet_sandbox/LABS/LAB-3/LAB-3/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net10.0": {
-            "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {}
           }
@@ -45,11 +38,10 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
-          "framework": "net10.0",
           "targetAlias": "net10.0",
           "imports": [
             "net461",
@@ -67,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.200/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

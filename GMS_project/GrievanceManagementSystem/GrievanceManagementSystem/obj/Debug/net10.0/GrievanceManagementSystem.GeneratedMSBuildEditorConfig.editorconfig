@@ -17,48 +17,47 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
-build_property.EntryPointFilePath = 
 build_property.RootNamespace = GrievanceManagementSystem
 build_property.RootNamespace = GrievanceManagementSystem
-build_property.ProjectDir = D:\Btech_CSE\Semester-5\ASP.NET\GMS_project\GrievanceManagementSystem\GrievanceManagementSystem\
+build_property.ProjectDir = /workspaces/dotnet_sandbox/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
-build_property.RazorLangVersion = 10.0
+build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Btech_CSE\Semester-5\ASP.NET\GMS_project\GrievanceManagementSystem\GrievanceManagementSystem
+build_property.MSBuildProjectDirectory = /workspaces/dotnet_sandbox/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/Btech_CSE/Semester-5/ASP.NET/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/Dashboard/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+[/workspaces/dotnet_sandbox/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Btech_CSE/Semester-5/ASP.NET/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/Role/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
+[/workspaces/dotnet_sandbox/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Btech_CSE/Semester-5/ASP.NET/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/Role/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxJbmRleC5jc2h0bWw=
+[/workspaces/dotnet_sandbox/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/Role/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Btech_CSE/Semester-5/ASP.NET/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/workspaces/dotnet_sandbox/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Btech_CSE/Semester-5/ASP.NET/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/workspaces/dotnet_sandbox/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Btech_CSE/Semester-5/ASP.NET/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/workspaces/dotnet_sandbox/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Btech_CSE/Semester-5/ASP.NET/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/workspaces/dotnet_sandbox/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Btech_CSE/Semester-5/ASP.NET/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-kyoox9f750
+[/workspaces/dotnet_sandbox/GMS_project/GrievanceManagementSystem/GrievanceManagementSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ghvrefw12q
