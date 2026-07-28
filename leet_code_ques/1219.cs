@@ -22,12 +22,13 @@ public class Solution{
         {
             for(int j = 0 ; j<n ; j++)
             {
-                
+
                 if (grid[i][j] > 0)
                 {
                     int gold = findMaxGold(gridi,j,m,n,visited);
                     
                 }
+                
             }
         }
 
