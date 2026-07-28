@@ -14,7 +14,7 @@ public class Solution{
     int n = grid.Length[0]; // represents total number of columns
     int max = 0;
     bool[][] visited = new bool[m][];
-     for (int k = 0; k < m; k++) {
+    for (int k = 0; k < m; k++) {
         visited[k] = new bool[n];
     }
 
@@ -22,7 +22,11 @@ public class Solution{
         {
             for(int j = 0 ; j<n ; j++)
             {
-                
+                if (grid[i][j] > 0)
+                {
+                    int gold = findMaxGold(gridi,j,m,n,visited);
+                    
+                }
             }
         }
 
