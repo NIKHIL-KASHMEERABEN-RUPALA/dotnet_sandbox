@@ -6,9 +6,10 @@ public class Solution
         // here we extract length of digits array
         for(int i = n-1 ; i>=0 ; i--)
         {
-            
+
             if (digits[i] < 9)
             {
+                
                 digits[i] = digits[i]+1;
                 return digits;
             }
