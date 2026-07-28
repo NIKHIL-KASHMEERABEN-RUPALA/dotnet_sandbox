@@ -13,7 +13,9 @@ public class Solution{
         visited[i][j] = true;
         int left = findMaxGold(grid,i,j-1,m,n,visited);
         int right = findMaxGold(grid,i,j+1,m,n,visited);
-        
+        int up = findMaxGold(grid,i-1,j,m,n,visited);
+        int down = findMaxGold(grid,i+1,j,m,n,visited);
+        visited[i][j] = false;
 
     }
 
