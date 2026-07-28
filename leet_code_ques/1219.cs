@@ -4,6 +4,14 @@
 public class Solution{
 
 
+    private int findMaxGold(int[][] grid , int i , int j , int m , int n , bool[][] visited)
+    {
+        if(i<0 || j < 0 || i>=m || j>=n || visited[i][j] || grid[i][j]==0){
+            return 0;
+        }
+        
+    }
+
     public int GetMaximumGold(int[][] grid){
         if (grid==null || grid.Length==0){
             return 0;
