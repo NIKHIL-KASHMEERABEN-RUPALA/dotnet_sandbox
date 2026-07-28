@@ -11,7 +11,7 @@ public class Solution{
         }
 
     int m = grid.Length; // represents total number of rows
-    int n = grid.Length[0] // represents total number of columns
+    int n = grid.Length[0]; // represents total number of columns
 
     
 
