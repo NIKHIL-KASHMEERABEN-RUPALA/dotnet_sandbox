@@ -26,11 +26,12 @@ public class Solution{
                 if (grid[i][j] > 0)
                 {
                     int gold = findMaxGold(gridi,j,m,n,visited);
-                    
+                    max = Math.Max(max,gold);
                 }
-                
+
             }
         }
+        return max;
 
     }
 
