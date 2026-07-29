@@ -13,6 +13,7 @@ public class Solution
                 return digits;
 
             }
+            
             digits[i] = 0;
             // if we encounter 9 then initialize it to zero
         }
