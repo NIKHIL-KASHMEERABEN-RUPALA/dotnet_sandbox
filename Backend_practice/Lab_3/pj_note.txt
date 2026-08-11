@@ -1,0 +1,3 @@
+package.json is the main configuration file of node.js project . 
+It contains important information about the project , including its name , version 
+dependencies , scripts , author , license and other metadata 
