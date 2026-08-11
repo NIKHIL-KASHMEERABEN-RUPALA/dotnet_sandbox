@@ -18,6 +18,7 @@ public class Solution{
         visited[i][j] = false;
 
     }
+    
 
     public int GetMaximumGold(int[][] grid){
         if (grid==null || grid.Length==0){
