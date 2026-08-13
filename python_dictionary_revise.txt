@@ -12,7 +12,6 @@ dictionary key must be of unmutable type like string , tuple or numbers
 
 
 
-added certain content inside it 
 ACCESSING DICTIONARY MEMBERS ---
     using [] bracket notation :
         (1) dict['key']
