@@ -6,6 +6,7 @@ dictionary is mutable , we can add , delete or modify the items
 dictionary key is unique , if assigned a new value then 
 old values will be overwritten
 
+
 dictionary key must be of unmutable type like string , tuple or numbers
 
 
