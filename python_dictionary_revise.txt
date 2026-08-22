@@ -15,7 +15,6 @@ ACCESSING DICTIONARY MEMBERS ---
         (1) dict['key']
             this would raise an error if key is not existing -- KeyError 
 
-
         (2)  .get('key',defualt_value)
             this is safer
             returns 'None' if not found
