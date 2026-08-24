@@ -16,7 +16,7 @@ ACCESSING DICTIONARY MEMBERS ---
 
         (2)  .get('key',defualt_value)
             this is safer
-            returns 'None' if not foun
+            returns 'None' if not found
             returns defualt_value if specified
 
 IMP METHODS -----
