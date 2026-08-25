@@ -1,4 +1,4 @@
-before python 3.7 , dictionary was unorganized and non-s
+before python 3.7 , dictionary was unorganized and non-
 
 but now , dictionary is sequential and maintains its order of items in which it was inserted
 dictionary is mutable , we can add , delete or modify the items 
